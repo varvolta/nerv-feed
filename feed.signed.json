@@ -1,0 +1,79 @@
+{
+  "feed": {
+    "version": 1,
+    "generatedAt": 1790691942308,
+    "runtime": {
+      "version": "b10941",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10941/llama-b10941-bin-macos-arm64.tar.gz",
+      "sha256": "cfd7639e91f4cb675b8146dcd4b49afecc7666eff61b460afaee4fd2e5bf9082"
+    },
+    "models": [
+      {
+        "id": "nerv-main",
+        "displayName": "Qwen3.5-9B Defiant",
+        "quantization": "Q4_K_S",
+        "contextSize": 131072,
+        "files": [
+          {
+            "name": "model.gguf",
+            "source": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+            "revision": "425937812d28d85a5b5bd70f90e66b590db1fb3c",
+            "remoteName": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-Q4_K_S.gguf",
+            "size": 6551514400,
+            "sha256": "6d738a564822d8ad0f0f3b4cae135e66c90ef0f5e30ed1722c79817802e2b62b"
+          },
+          {
+            "name": "mmproj.gguf",
+            "source": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+            "revision": "425937812d28d85a5b5bd70f90e66b590db1fb3c",
+            "remoteName": "mmproj-F16.gguf",
+            "size": 918166080,
+            "sha256": "f70dc3509053962b0d0d3ee8a7eacebf5d60aa560cad78254ae8698516ae029f"
+          }
+        ]
+      },
+      {
+        "id": "nerv-helper",
+        "displayName": "Qwen3.5-0.8B",
+        "quantization": "Q8_0",
+        "contextSize": 8192,
+        "files": [
+          {
+            "name": "model.gguf",
+            "source": "unsloth/Qwen3.5-0.8B-GGUF",
+            "revision": "6ab461498e2023f6e3c1baea90a8f0fe38ab64d0",
+            "remoteName": "Qwen3.5-0.8B-Q8_0.gguf",
+            "size": 811843840,
+            "sha256": "0ad885ffd4bb022fc4f0d33a3308fa108ef8613159d3b3a67e23abca056b7a6c"
+          },
+          {
+            "name": "mmproj.gguf",
+            "source": "unsloth/Qwen3.5-0.8B-GGUF",
+            "revision": "6ab461498e2023f6e3c1baea90a8f0fe38ab64d0",
+            "remoteName": "mmproj-F16.gguf",
+            "size": 204987232,
+            "sha256": "56e4c6cfe73b0c82e3e82bc518d7591997e61d81f723fc41a586f4fa69ea2453"
+          }
+        ]
+      },
+      {
+        "id": "nerv-embedding",
+        "displayName": "Qwen3-Embedding-0.6B",
+        "quantization": "Q8_0",
+        "contextSize": 8192,
+        "files": [
+          {
+            "name": "model.gguf",
+            "source": "Qwen/Qwen3-Embedding-0.6B-GGUF",
+            "revision": "370f27d7550e0def9b39c1f16d3fbaa13aa67728",
+            "remoteName": "Qwen3-Embedding-0.6B-Q8_0.gguf",
+            "size": 639150592,
+            "sha256": "06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439"
+          }
+        ]
+      }
+    ],
+    "notes": "What changed, in a sentence."
+  },
+  "signature": "Z/8iAJM7n0RyIUwg4GXphPpFc/XcIs+qhzDb4wJhE3w5eHYk//xLsf91V2RX+mVZTbRKghJ9VomRiSH+4JjhCg=="
+}
