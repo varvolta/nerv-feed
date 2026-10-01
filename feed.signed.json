@@ -1,7 +1,7 @@
 {
   "feed": {
     "version": 1,
-    "generatedAt": 1790692447022,
+    "generatedAt": 1790838625833,
     "runtimes": {
       "darwin-arm64": {
         "version": "b10941",
@@ -10,12 +10,12 @@
       },
       "win32-x64": {
         "version": "b10941",
-        "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10941/llama-b10941-bin-win-cuda-12.4-x64.zip",
-        "sha256": "ed4767e423cf629b180c9dab9fdd8abb242faa822402afb8fe586cc71a815eea",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10941/llama-b10941-bin-win-cuda-13.3-x64.zip",
+        "sha256": "20074301156ed63c84fe280f07989593c7342a9820aa05086c422417f6cf6f92",
         "extra": [
           {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10941/cudart-llama-bin-win-cuda-12.4-x64.zip",
-            "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10941/cudart-llama-bin-win-cuda-13.3-x64.zip",
+            "sha256": "1462a050eb4c684921ba51dcc4cc488a036674c3e73e9945ee705b854808d03e"
           }
         ]
       }
@@ -29,7 +29,8 @@
         "hardware": {
           "platforms": [
             "darwin",
-            "win32"
+            "win32",
+            "linux"
           ],
           "minMemoryGiB": 12
         },
@@ -59,7 +60,9 @@
         "contextSize": 32768,
         "hardware": {
           "platforms": [
-            "darwin"
+            "darwin",
+            "win32",
+            "linux"
           ],
           "maxMemoryGiB": 12
         },
@@ -123,7 +126,7 @@
         ]
       }
     ],
-    "notes": "What changed, in a sentence."
+    "notes": "Windows runtime: CUDA 13.3 build of b10941 (RTX 50 kernels); main-model entries list Linux."
   },
-  "signature": "CdaZZDPk+V0dIbI26+2+D6T1NH5I3pdygo65SWC+y1sugshkIfXtga+wa7ZEXKPcpV6sn3zITLGPx8le+NE0Ag=="
+  "signature": "p6678DT8Pqr/wW1DEWoT7FKTflvwBFgyICok8kYBWzV2e80OcmYdlp/8obAdMGMEp4fVhyWXvxKyCHXMRv5OBQ=="
 }
